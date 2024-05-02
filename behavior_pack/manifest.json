@@ -4,7 +4,7 @@
     "description": "Dynamic lightning!",
     "name": "Outro's dynamic torch (Behavior Pack)",
     "uuid": "4f4653db-93bf-4ea4-995a-236d479d3361",
-    "version": [1, 0, 0],
+    "version": [1, 0, 1],
     "min_engine_version": [1, 16, 0]
   },
   "modules": [
