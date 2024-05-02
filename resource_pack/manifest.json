@@ -1,0 +1,17 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "Dynamic lightning!",
+      "name": "Outro's dynamic torch (Resource Pack)",
+      "uuid": "7137178d-1578-40ae-92e6-43e47ebebc02",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 16, 0]
+     },
+    "modules": [
+      {
+        "type": "resources",
+        "uuid": "53d60bc6-7951-43c2-b0ae-33b11129b219",
+        "version": [1, 0, 0]
+      }
+    ]
+   }

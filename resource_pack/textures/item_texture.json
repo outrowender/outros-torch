@@ -1,0 +1,31 @@
+{
+    "resource_pack_name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"lantern": {
+			"textures": [
+				"textures/items/lantern"
+			]
+		},
+		"redstone_torch": {
+			"textures": [
+				"textures/blocks/redstone_torch_on"
+			]
+		},
+		"soul_lantern": {
+			"textures": [
+				"textures/items/soul_lantern"
+			]
+		},
+		"soul_torch": {
+			"textures": [
+				"textures/blocks/soul_torch"
+			]
+		},
+		"torch": {
+			"textures": [
+				"textures/blocks/torch_on"
+			]
+		}
+	}
+}

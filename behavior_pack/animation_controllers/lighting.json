@@ -1,0 +1,49 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.light": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "light_up_medium": "query.equipped_item_any_tag('slot.weapon.mainhand', 'outro:light_source') + query.equipped_item_any_tag('slot.weapon.offhand', 'outro:light_source') >= 1"
+                        }
+                    ]
+                },
+                "light_up_medium": {
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ],
+                    "on_entry": [
+                        "/function lit_medium"
+                    ]
+                }
+            }
+        },
+        "controller.animation.dark": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "remove": "query.equipped_item_any_tag('slot.weapon.mainhand', 'outro:light_source') + query.equipped_item_any_tag('slot.weapon.offhand', 'outro:light_source') == 0"
+                        }
+                    ]
+                },
+                "remove": {
+                    "transitions": [
+                        {
+                            "default": "true"
+                        }
+                    ],
+                    "on_entry": [
+                        "/function unlit"
+                    ]
+                }
+            }
+        }
+    }
+}
