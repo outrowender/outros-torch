@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "minecraft:lantern"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "III",
+            "ITI",
+            "III"
+        ],
+        "key": {
+            "T": {
+                "item": "outro:torch"
+            },
+            "I": {
+                "item": "minecraft:iron_nugget"
+            }
+        },
+        "result": {
+            "item": "minecraft:lantern"
+        }
+    }
+}

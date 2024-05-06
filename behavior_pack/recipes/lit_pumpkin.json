@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "minecraft:lit_pumpkin"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "P",
+            "T"
+        ],
+        "key": {
+            "T": {
+                "item": "outro:torch"
+            },
+            "P": {
+                "item": "minecraft:carved_pumpkin"
+            }
+        },
+        "result": {
+            "item": "minecraft:lit_pumpkin"
+        }
+    }
+}

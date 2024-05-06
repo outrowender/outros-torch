@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "minecraft:repeater"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "TRT",
+            "SSS"
+        ],
+        "key": {
+            "T": {
+                "item": "outro:redstone_torch"
+            },
+            "R": {
+                "item": "minecraft:redstone"
+            },
+            "S": {
+                "item": "minecraft:stone"
+            }
+        },
+        "result": {
+            "item": "minecraft:repeater"
+        }
+    }
+}
